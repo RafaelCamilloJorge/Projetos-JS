@@ -51,7 +51,7 @@ h1{
 }
 
 h1 span{
-    color: #89C5CC;
+    color: 	#FF8C00;
 }
 
 p{
@@ -59,6 +59,10 @@ p{
     font-weight: 28px;
     color: #7D7987;
     margin-bottom: 5px;
+}
+
+p strong {
+    color: 	#FF8C00;
 }
 
 button{
