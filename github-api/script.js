@@ -11,8 +11,6 @@ const getRepos = async () => {
     const res = await fetch(url);
     const data = await res.json();
 
-    console.log(res)
-    console.log(data)
     
     if(res.status == 200){
         nomes.innerHTML = '@' + pesquisa.value;
